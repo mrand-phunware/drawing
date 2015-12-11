@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".FreeDraw">
+    <item android:id="@+id/draw_blue"
+        android:title="Blue"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/draw_green"
+        android:title="Green"
+        android:orderInCategory="200"
+        app:showAsAction="never"/>
+    <item android:id="@+id/draw_black"
+        android:title="Black"
+        android:orderInCategory="300"
+        app:showAsAction="never"/>
+    <item android:id="@+id/choose_pic"
+        android:title="Choose a photo"
+        android:orderInCategory="050"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_save"
+        android:title="Save masterpiece"
+        android:orderInCategory="010"
+        android:icon="@android:drawable/ic_menu_save"
+        app:showAsAction="always"/>
+</menu>
